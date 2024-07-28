@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Request</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Wanna be with me?</h1>
+        <button id="introBtn">Click here</button>
+    </div>
+    <div class="container hidden">
+        <div class="content">
+            <h1>Can we spend some time together?</h1>
+            <p>I miss you and feel like we don't spend enough time together. Let's change that!</p>
+            <button id="requestTimeBtn">Ask for Time</button>
+            <div id="response" class="hidden">
+                <h2>When can we meet?</h2>
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+                <label for="time">Time:</label>
+                <input type="time" id="time">
+                <button id="submitBtn">Submit</button>
+            </div>
+
+            <div id="confirmation" class="hidden">
+                <p>Thank you! Looking forward to spending time together.</p>
+                <a href="thankyou.html">Next</a>
+            </div>
+            
+        </div>
+        <div class="photo-carousel hidden">
+            <h2>Our Memories</h2>
+            <div class="carousel">
+                <img src="photo1.jpg" alt="Photo 1">
+                <img src="photo2.jpg" alt="Photo 2">
+                <img src="photo3.jpg" alt="Photo 3">
+            </div>
+        </div>
+        <div class="personal-notes hidden">
+            <h2>Love Notes</h2>
+            <div class="note">You are my sunshine on a rainy day.</div>
+            <div class="note">I cherish every moment we spend together.</div>
+            <div class="note">You mean the world to me.</div>
+        </div>
+    </div>
+   
+   
+
+    <audio id="clickSound" src="click.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
